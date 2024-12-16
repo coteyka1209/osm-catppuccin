@@ -1,0 +1,713 @@
+@-moz-document domain("openstreetmap.org") {
+body {
+	background-color: #303446
+}
+
+#sidebar_content {
+	background-color: #414559 !important
+}
+
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9, /* :p */
+p,
+bdi, legend, label, dd, dt, code, li::marker, .form-text.text-muted, .text-body-secondary, .localized-text, .entity-name, .col-md {
+	color: #c6d0f5 !important
+}
+
+.btn-close {
+	background-color: #c6d0f5;
+}
+
+a,
+summary, .entity-type, .changeset_id.link-body-emphasis {
+	color: #babbf0 !important
+}
+
+input {
+	background-color: #63687c !important;
+	color: #bdd0f5 !important
+}
+
+.btn.btn-outline-primary.geolink {
+	color: #a5adce;
+}
+
+.form-control.z-0.py-1.px-2 {
+	background-color: #737994;
+}
+
+.d-flex.bg-body.closed.z-3, .content-inner, .content-heading.bg-body-secondary.border-bottom.border-secondary-subtle, .content-body {
+	background-color: #303446 !important
+}
+
+.icon-link.gap-1.text-body-emphasis.text-decoration-none.geolink {
+	/* osm logo */
+	color: #c6d0f5 !important
+}
+
+.leaflet-control-attribution.leaflet-control {
+	background-color: rgba(90, 92, 122, .8) !important
+}
+
+.donate-attr {
+	color: #a6d189 !important
+}
+
+.describe_location.position-absolute.end-0.top-0.bottom-0.m-1.btn.btn-outline-primary.border-0.p-1.bg-transparent.text-primary.link-body-emphasis.link-opacity-100-hover {
+	color: #babbf0 !important
+}
+
+.btn.btn-primary.p-1,
+.btn.btn-outline-primary.dropdown-toggle.dropdown-toggle-split {
+	background-color: #303446;
+	--bs-btn-border-color: #303446;
+	color: #a4bbe9
+}
+
+.py-1.border-secondary-subtle.border-start {
+	background-color: #626880 !important;
+	--bs-secondary-border-subtle: #4b5063;
+	color: #a5adce
+}
+
+.py-1.border-secondary-subtle.table-secondary.fw-normal {
+	background-color: #51576d !important;
+	--bs-secondary-border-subtle: #434755
+}
+
+.leaflet-control-scale-line {
+	background-color: rgba(100, 102, 138, .7)!important;
+	color: #b5bfe2 !important
+}
+
+.search_form.bg-body-secondary.px-1.py-2 {
+	background-color: #414559 !important;
+}
+
+.form-control,
+.mb-3.border.border-secondary-subtle.rounded.overflow-hidden,
+.btn.btn-primary,
+.d-flex.gap-1.align-items-center.justify-content-center.dropdown-toggle.btn.btn-outline-secondary.border-secondary-subtle.bg-body.text-secondary.px-2.py-1.flex-grow-1, .footer, .inspector-body, .header.fillL, .preset-icon.area-geom.framed, .ideditor ::-webkit-scrollbar, .key.combobox-input, .value.combobox-input, .form-field-button.remove, .label-text, .localized-add.form-field-button, .localized-main, .field-label, .sidebar, input, .no-results-item, .remove-icon, .form-field-button.decrement, .form-field-button.increment, .chiplist, .chip.draggable, .combobox-option, .form-field-input-wrap.form-field-input-check, .modified-icon, .form-field-button.colour-preview, .rows, .preset-input-access.preset-input-access-horse.combobox-input, .label.preset-label-access, .form-field-input-wrap.form-field-input-radio label, .table.table-sm.align-middle.messages-table td, .nav-link.active, .card-body, .alert.alert-success.row.mx-0.mb-0.p-3.rounded-0.align-items-center, .page-link.icon-link.text-center.text-nowrap, .form-field-button.foreign-id-permalink, .form-field-button.wiki-link.disabled, .form-field-button.wiki-link, .form-field-button.date-calendar, .form-field-button.date-set-today, .form-field-input-wrap.form-field-input-textarea textarea, .form-field-input-wrap.form-field-input-address, .page-link, .page-item.disabled, .chip, .members-download, .member-download, .remove.member-delete, .member-zoom, .field-help-button, .modal-section.save-section.fillL, .modal-section.changeset-editor, .reset, .restore, .modal-section, .change-item button, bdi, .ti_content.taginfo-content, .ti_named_link.taginfo-tag, .remove-icon-multilingual, .pane-content li, .tag-reference-button, .note-header, .note-header-label, .note-header-icon.open, .comment-main, .error-details.qa-details-container, .qa-header, .qa-header-label, .qa-header-icon {
+	/*exclude borders :) */
+	border: 0px solid #bebebe !important
+}
+
+.control-button {
+	background-color: #232634 !important
+}
+
+.field-label {
+	background-color: #737994 !important
+}
+
+.btn.btn-outline-primary.geolink,
+.btn.btn-outline-primary.dropdown-toggle.dropdown-toggle-split,
+.dropdown-divider {
+	border-color: #595f75 !important;
+	--bs-btn-hover-bg: #5a5c7a !important;
+}
+
+#sidebar {
+	background-color: #414559 !important
+}
+
+.btn.btn-primary {
+	background-color: #63687c;
+	--bs-btn-active-bg: #575b6a
+}
+
+.spinner-border {
+	color: #707691 !important;
+}
+
+.dropdown-menu.show {
+	background-color: #292c3c
+}
+
+.badge.count-number, .badge.bg-success.text-white {
+	background-color: #a6d189 !important
+}
+
+.dropdown-toggle.nav-link.btn.btn-outline-secondary.border-0.bg-body.text-secondary,
+.d-flex.gap-1.align-items-center.justify-content-center.dropdown-toggle.btn.btn-outline-secondary.border-secondary-subtle.bg-body.text-secondary.px-2.py-1.flex-grow-1 {
+	background-color: #51576d !important;
+	color: #b5bfe2 !important
+}
+
+.list-group {
+	--bs-list-group-bg: #0000;
+	--bs-list-group-border-color: #222534
+}
+
+.btn.btn-primary.p-1 {
+	background-color: #292c3c
+}
+
+.search_forms {
+	border-radius: 25px
+}
+
+.leaflet-contextmenu, .leaflet-contextmenu-item, .form-field-button.remove, .form-field-button.decrement, .form-field-button.increment, .chiplist, .modified-icon, .form-field-button.foreign-id-permalink, .form-field-button.wiki-link.disabled, .form-field-button.wiki-link, .form-field-button.date-calendar, .form-field-button.date-set-today, .field-help-button {
+	background-color: #737994 !important;
+	color: #c0caee !important;
+}
+
+.leaflet-contextmenu-item.over {
+	background-color: #646a82 !important;
+}
+
+#map-ui, td, .preset-choose {
+	background-color: #414559 !important;
+	color: #c6d0f5 !important;
+}
+
+.form-control.form-control-sm.font-monospace {
+	color: #a5adce !important;
+}
+
+.alert.alert-info {
+	background-color: #85c1dc;
+	color: #626880 !important
+}
+
+.form-control {
+	background-color: #737994;
+	color: #a5adce !important;
+}
+
+.dropdown-item:hover {
+	background-color: #242735 !important
+}
+
+.inspector-body, .header.fillL, .close, .preset-reset.preset-choose, .footer, .value.combobox-input, .form-fields-container.grouped-items-area {
+	background-color: #414559 !important;
+	color: #c6d0f5 !important
+}
+
+.preset-icon.area-geom.framed, .preset-icon.point-geom, .reverser, .card-body, .page-link.icon-link.text-center.text-nowrap, .px-2.py-1.bg-body, .form-field-input-wrap.form-field-input-textarea textarea, .preset-icon.vertex-geom.framed, .preset-icon.line-geom.preset-icon-iD, .preset-icon.area-geom.preset-icon-iD, .preset-icon.point-geom.preset-icon-iD, .icon.iD-route-master.tag-type.tag-type-route_master, .remove-icon-multilingual, .preset-icon-fill.preset-icon-fill-vertex, .open-data-options, .layer-browse {
+	background-color: #838ba7 !important
+}
+
+.card-body {
+	border-radius: 5px
+}
+
+.preset-icon.line-geom.framed svg {
+	top: 30% !important
+}
+
+.btn.btn-outline-primary {
+	--bs-btn-hover-border-color: red !important;
+	--bs-btn-color: red
+}
+
+.popover-inner {
+	background-color: #737994 !important
+}
+
+.disclosure-wrap.disclosure-wrap-entity_issues.grouped-items-area {
+	background-color: #838ba7
+}
+
+.issue-text, .issue-info-button {
+	background-color: #626880 !important;
+	border-radius: 0;
+	border-width: 0;
+}
+
+.section.section-issues-status .box {
+	background-color: #a6d189;
+	border-color: #a6d189
+}
+
+.box span {
+	color: white !important
+}
+
+.issue-info-button {
+	border-radius: 0
+}
+
+.pane-heading, .pane-heading button {
+	background-color: #303446
+}
+
+/* right menu header */
+.header.fillL {
+	background-color: #303446 !important
+}
+
+/* left menu header */
+.pane-heading .icon {
+	fill: red !important
+}
+
+.pane-content {
+	background-color: #414559
+}
+
+.pane-content li {
+	background-color: #737994 !important
+}
+
+.issue.severity-error button, .issue-fix-list button {
+	background-color: #737994 !important;
+	border-radius: 0;
+	border-width: 0;
+}
+
+.modal-section.fillL {
+	background-color: #838ba7 !important
+}
+
+.close {
+	background-color: #303446 !important
+}
+
+.keyhint-wrap {
+	background-color: #626880 !important
+}
+
+.label, .label-text, .remove-icon, .form-field-button.colour-preview, .members-download, .member-download, .remove.member-delete, .member-zoom, .restriction-controls-container, .tag-reference-button {
+	background-color: #737994 !important
+}
+
+.add-button.bar-button, .undo-button.bar-button, .redo-button.bar-button, .item-content button {
+	background-color: #949cbb;
+}
+
+.localized-main, .localized-add.form-field-button, .combobox-input, .form-field-input-wrap.form-field-input-check, .form-field-input-wrap, .ideditor .form-field-input-radio, .label, .geocode-item.secondary-action, .no-results-item, .form-field-input-wrap.form-field-input-radio, .chip.draggable, .chip, .form-field-input-wrap.form-field-input-radio label, .structure-extras-wrap, .form-field-input-wrap.form-field-input-number input, .addr-row input, .form-field-input-wrap.form-field-input-text input, .form-field-input-wrap.form-field-input-colour input, .form-field-input-wrap.form-field-input-url input, .form-field-input-wrap.form-field-input-date input, .chiplist.active, .form-field-input-wrap.form-field-input-identifier input, .form-field-input-wrap.form-field-input-tel input, .form-field-input-wrap.form-field-input-email input, .localized-value {
+	background-color: #838ba7 !important;
+	color: #c6d0f5 !important;
+}
+
+/*"База данных OpenStreetMap в данный момент доступна только для чтения, так как проводится необходимое техническое обслуживание." aaah moment (16.12.2024) */
+.alert.alert-warning.row.mx-0.mb-0.p-3.rounded-0.align-items-center {
+	background-color: #51576d;
+	border: 0;
+	color: #e5c890
+}
+
+/* end */
+.text-center.loader {
+	background-color: #414559 !important
+}
+
+
+/* .org/traces */
+.btn.btn-secondary.btn-sm[href = "/traces/rss"] {
+	background-color: #ef9f76;
+	border: 0;
+}
+
+.btn.btn-secondary.btn-sm[href = "/traces/new"] {
+	background-color: #81c8be;
+	border: 0;
+	color: #51576d !important
+}
+
+.badge.text-bg-success {
+	background-color: #a6d189 !important
+}
+
+.page-item.d-flex.disabled {
+	border-top-left-radius: 50px !important;
+	border-bottom-left-radius: 50px !important;
+}
+
+
+input::placeholder {
+	color: #a5adce !important
+}
+
+.key.combobox-input, .combobox-option {
+	background-color: #51576d !important
+}
+
+.value.combobox-input {
+	background-color: #626880 !important
+}
+
+.ideditor .preset-list-button-wrap {
+	border: 1px solid #737994;
+}
+
+.map-footer {
+	background-color: rgba(90, 92, 122, .7);
+}
+
+.remove-icon svg, .remove-icon-multilingual svg, .tag-reference-button svg {
+	fill: #a4adce !important
+}
+
+
+.zoom-to.notice.fillD .label {
+	background-color: #f000 !important
+}
+
+.table.table-sm.align-middle.messages-table th, .nav-link.active, .table.table-borderless.table-striped th, .table.table-sm.note_list th, .error-details.qa-details-container {
+	background-color: #626880 !important;
+	color: #c6d0f5 !important;
+	border-top-left-radius: 2px;
+}
+
+.text-end {
+	border-top-right-radius: 2px;
+}
+
+.popover-arrow {
+	border-bottom-color: #707791 !important
+}
+
+.nav-link.active {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.card.bg-body-tertiary.h-100 {
+	border-radius: 5px;
+}
+
+.btn.btn-outline-danger {
+	background-color: #e78284 !important;
+	--bs-btn-color: #e78284 !important;
+	--bs-btn-border-color: #e78284 !important;
+	--bs-btn-hover-bg: #e78284 !important;
+	--bs-btn-hover-border-color: #e78284 !important;
+}
+
+.btn.btn-outline-primary {
+	--bs-btn-color: #8caaee !important;
+	--bs-btn-border-color: #8caaee !important;
+	--bs-btn-hover-bg: #8caaee !important;
+	--bs-btn-hover-border-color: #8caaee !important;
+}
+
+.btn.btn-sm.btn-primary, .alert.alert-success.row.mx-0.mb-0.p-3.rounded-0.align-items-center {
+	background-color: #81c8be;
+}
+
+.btn.btn-sm.btn-danger {
+	background-color: #e78284 !important;
+	--bs-btn-border-color: #e78284 !important;
+	--bs-btn-hover-bg: #e78284 !important;
+	--bs-btn-hover-border-color: #e78284 !important;
+}
+
+.table.table-borderless.table-sm th {
+	background-color: #51576d !important;
+	color: #c6d0f5 !important;
+}
+
+.nav-link.text-secondary {
+	color: #888888 !important
+}
+
+/* .org/about */
+.col-sm-5.px-5.py-3.byosm {
+	background-color: #a6d189 !important
+}
+
+.user-name {
+	color: #a6d189 !important
+}
+
+.px-5.py-4.bg-black.bg-opacity-75 {
+	background-color: #232634 !important;
+}
+
+.bg-body.px-5.py-4 {
+	background-color: #414559 !important
+}
+
+/* .org/help */
+.card {
+	--bs-card-bg: #737994 !important;
+}
+
+.alert.alert-primary {
+	background-color: #949cbb
+}
+
+/* .org/copyright, .org/traces and .org/communities already good :D */
+/* .org/diary */
+.richtext.text-break p {
+	color: #c6d0f5 !important
+}
+
+/* upload to osm menu */
+.modal-section.changeset-editor {
+	background-color: #414559
+}
+
+.modal-section.save-section.fillL, .buttons.fillL {
+	background-color: #8c8fa1
+}
+
+.action.button.save-button.disabled .label .localized-text {
+	background-color: #303446 !important
+}
+
+.ideditor button.secondary-action:hover {
+	background-color: #414559 !important
+}
+
+.ideditor button.action.button.save-button.disabled:hover {
+	background-color: #303446 !important
+}
+
+.ideditor button.action.button.save-button:hover {
+	background-color: #99d1db !important
+}
+
+.loader {
+	background-color: #828ba6 !important
+}
+
+.modal-section.tag-section.raw-tag-editor {
+	background-color: #7c7f93
+}
+
+.localized-text {
+	color: #fff0
+}
+
+.popover-arrow {
+	border-top-color: #737994 !important
+}
+
+.label {
+	background-color: #2a0000
+}
+
+.change-item button {
+	background-color: #737994 !important
+}
+
+.secondary-action.button.cancel-button .label {
+	background-color: #414559 !important
+}
+
+.secondary-action.button.cancel-button {
+	background-color: #414559
+}
+
+.action.button.save-button.disabled {
+	background-color: #303446
+}
+
+.action.button.save-button.disabled .label {
+	background-color: #303446 !important
+}
+
+.action.button.save-button {
+	background-color: #99d1db
+}
+
+.action.button.save-button .label {
+	background-color: #99d1db !important;
+}
+
+.label span {
+	color: white !important;
+}
+
+.body {
+	background-color: #51576d
+}
+
+.body.save-success.fillL {
+	background-color: #414559
+}
+
+/* local edits detected */
+.reset {
+	background-color: #626880 !important
+}
+
+.restore {
+	background-color: #737994 !important
+}
+
+.modal-section {
+	background-color: #51576d
+}
+
+/* end (i like how i did it!) */
+.page-link, .page-item.disabled {
+	background-color: #8c8fa1 !important
+}
+
+.restriction-help {
+	background-color: #73799485 !important
+}
+
+.field-help-body {
+	background-color: #414559 !important
+}
+
+.preset-icon.framed {
+	background-color: #949cbb !important
+}
+
+.preset-list.fillL3 {
+	background-color: #8c8fa1
+}
+
+/* WIKI */
+#mw-head {
+	background-color: #232634
+}
+
+#content {
+	background-color: #303446;
+	border-width: 0px
+}
+
+#toc, .languages.noprint.navigation-not-searchable div, .vector-menu-content li a, #catlinks {
+	background-color: #737994 !important
+}
+
+#p-site span, .vector-menu-heading span, .vector-menu-content-list span {
+	background-color: #303446
+}
+
+code {
+	background-color: #737994;
+	border-width: 0px;
+}
+
+.selected.mw-list-item span, .new.mw-list-item span, .mw-list-item.collapsible span, .noprint.plainlinks.navbar, .vector-menu-content-list, .uls-trigger span, #pt-userpage span, #pt-notifications-alert a, #pt-notifications-notice a {
+	background-color: #4700ff00 !important
+}
+
+.note-header, .note-header-label {
+	background-color: #838ba7 !important;
+	color: #c6d0f5 !important;
+}
+
+.qa-header, .qa-header-label, .qa-header-icon {
+	background-color: #838ba7 !important
+}
+
+.note-header-icon.open {
+	background-color: #ea999c
+}
+
+.note-header-icon.open.new {
+	background-color: #e5c890
+}
+
+.note-header-icon.closed {
+	background-color: #a6d189
+}
+
+.button.comment-button.action, .button.status-button.action {
+	background-color: #8caaee !important
+}
+
+.comment {
+	border-color: #949cbb !important;
+}
+
+.comments-container {
+	background-color: #838ba7 !important
+}
+
+.comment-main, .comment-avatar {
+	background-color: #949cbb !important
+}
+
+.description.keydescription, tt, bdi {
+	background: #414559 !important;
+	color: #c6d0f5 !important
+}
+
+.ti_content.taginfo-content {
+	background-color: #303446;
+	margin: 0px;
+	padding: 0px
+}
+
+.ti_named_link.taginfo-tag {
+	background-color: #292c3c;
+	margin: 0px;
+	padding: 0px
+}
+
+.mw-parser-output div, #suggestions {
+	background-color: #838ba7 !important
+}
+
+/*taginfo*/
+#map {
+	background-color: #737994 !important
+}
+
+#menu {
+	background: #f000 !important;
+}
+
+div#tabs > ul:after, div#tabs > ul:before {
+	background: #b700ff00
+}
+
+.button, #search {
+	background-color: #737994 !important
+}
+
+input:focus {
+	background-color: #737994 !important;
+}
+
+:root {
+	--color-light: #838ba7 !important;
+}
+}
+
+@-moz-document url-prefix("https://www.openstreetmap.org/id") {
+.ideditor .top-toolbar {
+	background: transparent;
+	height: 40px;
+	padding: 0;
+	position: fixed;
+	margin-top: 10px;
+	width: fit-content;
+}
+
+.ideditor .joined > * {
+	border: none;
+}
+
+.toolbar-item.old-modes .label {
+	display: none;
+}
+
+.ideditor .top-toolbar .toolbar-item .item-label {
+	display: none;
+}
+
+.ideditor .header {
+	padding: 15px 40px;
+}
+
+.ideditor .entity-editor {
+	padding: 10px;
+}
+
+.ideditor .preset-list {
+	padding: 10px;
+}
+
+.ideditor .section:not(:last-child), .ideditor .map-pane .section {
+	margin-bottom: 20px;
+}
+}

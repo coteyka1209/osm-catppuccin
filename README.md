@@ -4,7 +4,7 @@ Soothing pastel theme, now for OSM
 # What's that?
 openstreetmap.org already have a dark theme, but now you can set Catppuccin as your theme for osm.org!
 
-# Flavours
+# Flavors
 Only frappe for now, sorry :(
 
 # Install
